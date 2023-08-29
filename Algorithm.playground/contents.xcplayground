@@ -3,5 +3,6 @@
     <pages>
         <page name='BinarySearch'/>
         <page name='Sort array of distict 3 elements'/>
+        <page name='print alternate charactor from string'/>
     </pages>
 </playground>
