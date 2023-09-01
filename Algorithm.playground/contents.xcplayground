@@ -4,5 +4,6 @@
         <page name='BinarySearch'/>
         <page name='Sort array of distict 3 elements'/>
         <page name='print alternate charactor from string'/>
+        <page name='Remove duplicates from array'/>
     </pages>
 </playground>
