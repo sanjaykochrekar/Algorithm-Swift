@@ -7,5 +7,6 @@
         <page name='Remove duplicates from array'/>
         <page name='Bubble Sort'/>
         <page name='Stack'/>
+        <page name='For Loop'/>
     </pages>
 </playground>
