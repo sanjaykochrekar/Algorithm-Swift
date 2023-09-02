@@ -6,5 +6,6 @@
         <page name='print alternate charactor from string'/>
         <page name='Remove duplicates from array'/>
         <page name='Bubble Sort'/>
+        <page name='Stack'/>
     </pages>
 </playground>
