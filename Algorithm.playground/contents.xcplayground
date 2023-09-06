@@ -8,5 +8,6 @@
         <page name='Bubble Sort'/>
         <page name='Stack'/>
         <page name='For Loop'/>
+        <page name='Hour Glass Problem'/>
     </pages>
 </playground>
