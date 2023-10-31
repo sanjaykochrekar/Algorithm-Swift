@@ -9,5 +9,8 @@
         <page name='Stack'/>
         <page name='For Loop'/>
         <page name='Hour Glass Problem'/>
+        <page name='Logest Prefix'/>
+        <page name='Valide Paranthisis'/>
+        <page name='Stock Buy Sell to Maximize Profit'/>
     </pages>
 </playground>
