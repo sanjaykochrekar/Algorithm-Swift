@@ -10,7 +10,7 @@ extension Array where  Iterator.Element == String {
                 if item.count - 1 < i {
                     return i - 1
                 }
-                print(item.index(after: "a"))
+//                print(item.index(after: "a"))
                 //                if ch != Array(item)[i] {
                 //                    return i - 1
                 //                }

@@ -12,11 +12,11 @@ import Foundation
 
 
 
-func findMaximum(arr: [Int]) -> Int {
-    guard var firstSmallItem: Int = arr.first else { return 0 }
-    var profit: Int = 0
+func findMaximum<T: AdditiveArithmetic & Comparable>(arr: [T]) -> T {
+    guard var firstSmallItem: T = arr.first else { return T.zero }
+    var profit: T = T.zero
     
-    for index in stride(from: 1, through: arr.count - 2, by: 1) {
+    for index in stride(from: 1, through: arr.count - 1, by: 1) {
         if arr[index] > arr[index - 1] {
             profit = profit + arr[index] - arr[index - 1]
         }
@@ -36,10 +36,10 @@ func findMaximum(arr: [Int]) -> Int {
 }
 
 
-print(findMaximum(arr: [100, 180, 260, 310, 40, 535, 695]))
+print(findMaximum(arr: [100, 180, 260, 310, 40, 535, 695, 1.0, 2]))
 
 print(findMaximum(arr: [1, 3, 4, 2, 2, 2, 4,2, 3, 1, 90]))
 
-print(findMaximum(arr: [5]))
+print(findMaximum(arr: [5.0]))
 
 print(findMaximum(arr: [5,4,3,2,1,0]))
